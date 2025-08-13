@@ -57,14 +57,6 @@ html, body {
 }
 .metric:last-child { border-bottom: none; }
 
-.badge-pill {
-  background-color: #ffffff22;
-  color: #fff;
-  border-radius: 999px;
-  padding: 6px 10px;
-  font-size: 12px;
-}
-
 pre {
   white-space: pre-wrap;
   background: #00000033;
