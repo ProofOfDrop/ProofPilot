@@ -10,7 +10,8 @@ const WEB3MODAL_PROVIDER_OPTIONS = {
         11155111: 'https://rpc.sepolia.org',                 // Sepolia
         80002: 'https://rpc-amoy.polygon.technology',        // Polygon Amoy
         421614: 'https://sepolia-rollup.arbitrum.io/rpc',    // Arbitrum Sepolia
-        84532: 'https://sepolia.base.org'                    // Base Sepolia
+        84532: 'https://sepolia.base.org',                    // Base Sepolia
+        1: 'wss://ethereum-rpc.publicnode.com'                //ETH Mainnet
       }
       // infuraId: '...optional...'
     }
@@ -35,7 +36,8 @@ const CHAIN_MAP = {
   11155111: { name: 'Ethereum Sepolia', moralis: 'sepolia', covalent: 11155111 },
   80002:    { name: 'Polygon Amoy',     moralis: 'amoy',    covalent: 80002 },
   421614:   { name: 'Arbitrum Sepolia', moralis: 'arbitrum-sepolia', covalent: 421614 },
-  84532:    { name: 'Base Sepolia',     moralis: 'base-sepolia',     covalent: 84532 }
+  84532:    { name: 'Base Sepolia',     moralis: 'base-sepolia',     covalent: 84532 },
+  1:        { name: 'Ethereum Mainet',  moralis: 'eth', covalent: 1} 
 };
 
 // The Graph subgraphs (examples/placeholders – add your own per chain)
